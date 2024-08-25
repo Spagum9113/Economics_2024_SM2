@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* CSS for the different subheadings */
+
+h1 {
+    font-family: public-sans, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: public-sans, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    font-family: public-sans, sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* shit for the sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #B9E2F8;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 3px solid black;
+}
+
+.title {
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+}
+
+.weekly {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+
+
+
+/* shit for the main website */
+
+.main {
+    width: 100vh;
+    height: 100vh;
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+}

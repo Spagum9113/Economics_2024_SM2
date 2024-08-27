@@ -112,7 +112,7 @@ a {
 
 
 
-/* shit for the main website */
+/* shit for the main website - HOME PAGE */
 
 .main {
     /* main website section styling */
@@ -160,7 +160,6 @@ a {
     padding: 20px;
     margin: 25px;
     margin: 25px 25px 60px 25px;
-
     box-shadow: 4px 4px;
 
 }
@@ -199,7 +198,6 @@ a {
     box-shadow: 4px 4px;
     display: flex;
     align-items: center;
-
 }
 
 .lecturers_title {
@@ -212,5 +210,88 @@ a {
     box-shadow: 4px 4px;
     display: flex;
     align-items: center;
+}
+
+
+
+
+/* shit for the main website - WEEK 1 PAGE */
+
+.main2 {
+    /* main website section styling */
+    height: 100vh;
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 325px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.yellow_top {
+    /* yellow header box styling */
+    background-color: #FFC900;
+    width: 2000px;
+    height: 125px;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.introduction_title {
+    /* white assessment overview title box styling */
+    height: 110px;
+    width: 135vh;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 4px 4px;
+    display: flex;
+    align-items: center;
+}
+
+.intro_image {
+    position: absolute;
+    transform: translateX(2100%);
+    width: 55px;
+    height: 55px;
+
+}
+
+
+
+.main_box {
+    margin: 60px 100px 60px 100px;
+    width: 120vh;
+    height: 82%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px;
+}
+
+.main_box2 {
+    margin: 60px 100px 60px 100px;
+    width: 120vh;
+    height: 41.6%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px;
+}
+
+
+.mini_box {
+    background-color: #CEEECF;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 50px;
+}
+
+.arrow_images {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    transform: translateX(1650%);
+    /* Vertically center the image */
 
 }

@@ -10,6 +10,13 @@ h1 {
 h2 {
     font-family: public-sans, sans-serif;
     font-weight: bold;
+    font-size: 28px
+}
+
+p {
+    font-family: archivo, sans-serif;
+    font-size: 17.5px;
+    font-weight: bold;
 }
 
 a {
@@ -20,40 +27,86 @@ a {
 
 
 /* shit for the sidebar */
+
 .sidebar {
-    width: 250px;
+    /* sidebar styling */
+    width: 325px;
     height: 100vh;
     background-color: #B9E2F8;
     color: black;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
     box-sizing: border-box;
     border-right: 3px solid black;
+    overflow-y: auto;
 }
 
+
+
 .title {
+    /* title of sidebar styling */
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 10px;
     border-bottom: 3px solid black;
     box-sizing: border-box;
 }
 
 .weekly {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid black;
+    /* weekly subject section styling */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     box-sizing: border-box;
+
+
+}
+
+.number_images {
+    /* weekly subject images styling */
+    height: 40px;
+    width: 40px;
+    padding: 0px 5px 0px 5px;
+
+
+}
+
+.bottom_border {
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.spacing {
+    padding-top: 30px;
+}
+
+.sidebar_titles {
+    display: flex;
+    align-items: center;
+    /* Vertically center both icon and text */
+    gap: 8px;
+    /* Adds space between the icon and text */
 }
 
 
-
 a:link {
+    /* removing the underline fo the links */
     text-decoration: none;
 }
 
 a {
+    /* changing the color of the links to black */
     color: black;
+    font-family: public-sans, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 
@@ -62,13 +115,102 @@ a {
 /* shit for the main website */
 
 .main {
-    width: 100vh;
+    /* main website section styling */
     height: 100vh;
     background-color: #ffffff;
     color: black;
     position: fixed;
     top: 0;
-    left: 250px;
+    left: 325px;
     padding: 20px;
     box-sizing: border-box;
+    overflow-y: auto;
+
+}
+
+.subject_guide {
+    /* green subject guide box styling */
+    background-color: #CEEECF;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px;
+    box-shadow: 4px 4px;
+
+}
+
+.subject_guide_title {
+    /* white subject guide title box styling */
+    height: 60px;
+    width: 250px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 4px 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.assessments_overview {
+    /* orange assessments overview box styling */
+    background-color: #FFEEC2;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px;
+    margin: 25px 25px 60px 25px;
+
+    box-shadow: 4px 4px;
+
+}
+
+.assessment_overview_title {
+    /* white assessment overview title box styling */
+    height: 60px;
+    width: 400px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 4px 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.lecturers {
+    /* purple lecturers overview box styling */
+    background-color: #EDDFFF;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px;
+    box-shadow: 4px 4px;
+
+}
+
+.tutorial_coordinator_title {
+    /* white tutotial coordinator title box styling */
+    height: 60px;
+    width: 785px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 4px 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.lecturers_title {
+    /* white lecturer title box styling */
+    height: 60px;
+    width: 185px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 4px 4px;
+    display: flex;
+    align-items: center;
+
 }
